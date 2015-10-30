@@ -1,0 +1,40 @@
+section.skills
+  background: $white
+  padding-bottom: 50px
+
+  .skills-wrap
+    display: flex
+    max-width: $guide
+    margin: 0 auto
+    width: 90%
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+
+    @media (max-width: 950px)
+      justify-content: center
+
+    article
+      width: 50%
+      display: flex
+      padding: 25px
+      align-items: flex-start
+
+      @media (max-width: 950px)
+        width: 90%
+        margin: 0 auto
+        justify-content: center
+
+      figure
+        width: 100px
+        margin: 0
+        padding: 0
+
+      .description
+        margin-left: 20px
+
+      h4
+        color: $green
+        font-family: $font
+      p
+        font-family: $light-font

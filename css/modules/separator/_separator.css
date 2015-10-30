@@ -1,0 +1,7 @@
+section.responsive {
+  background-image: url(../images/fondoresponsive.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+}

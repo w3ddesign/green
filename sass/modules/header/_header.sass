@@ -1,0 +1,29 @@
+header
+  width: 100%
+  height: 100vh
+  display: flex
+  justify-content: center
+  align-items: center
+  z-index: 3
+
+  @media (max-width: 1024px)
+    background: $green
+
+
+.logo
+  position: absolute
+  z-index: 9999 !important
+  top: 0px
+  left: 0px
+
+.welcome
+  position: relative
+  z-index: auto
+  max-width: 1200px
+  text-align: center
+  margin: 0 auto
+  color: $white
+  text-transform: uppercase
+
+  strong
+    color: $red
